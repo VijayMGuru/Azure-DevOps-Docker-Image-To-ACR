@@ -6,9 +6,6 @@ name: $(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)
 
 trigger: none
 
-# Don't run against PRs
-pr: none
-
 variables:
   - name: repository
     value: 'devopsjourney'
